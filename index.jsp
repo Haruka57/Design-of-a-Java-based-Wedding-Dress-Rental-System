@@ -246,7 +246,7 @@
 			<div class="row">
 				<!-- 推荐婚纱区域 -->
 				<section class="col-md-9" aria-labelledby="recommended-dresses">
-					<h3 id="recommended-dresses">推荐婚纱 <small>每一件都独具匠心</small></h3>
+					<h3><span id="recommended-dresses">推荐婚纱</span> <small>每一件都独具匠心</small></h3>
 					<div class="row">
 						<c:forEach items="${list}" var="m">
 							<article class="col-md-3">
@@ -265,7 +265,7 @@
 				
 				<!-- 热门婚纱区域 -->
 				<aside class="col-md-3" aria-labelledby="popular-dresses">
-					<h3 id="popular-dresses">热门婚纱 <small>畅销款式</small></h3>
+					<h3><span id="popular-dresses">热门婚纱</span> <small>畅销款式</small></h3>
 					<ol>
 						<c:forEach items="${listhit}" var="m">
 							<li>

@@ -451,7 +451,7 @@
 			<section class="row content-section" aria-labelledby="search-results">
 			  <div class="col-md-12">
 			  	<header class="section-header">
-			  		<h3 id="search-results">搜索结果 <small>婚纱列表</small></h3>
+			  		<h3><span id="search-results">搜索结果</span> <small>婚纱列表</small></h3>
 			  	</header>
 			  	<!-- 使用equal-height类确保卡片等高排列 -->
 			  	<div class="row equal-height">
