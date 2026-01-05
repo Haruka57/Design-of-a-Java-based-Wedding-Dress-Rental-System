@@ -369,8 +369,10 @@
 		</style>
 	</head>
 	<body>
-		<!-- 导航栏：按统一要求修改为「首页、电影搜索、登录/注册下拉、个人信息下拉」 -->
-		<nav class="navbar navbar-custom navbar-fixed-top">
+		<!-- 页眉 - 使用语义化 header 标签 -->
+		<header>
+			<!-- 导航栏：按统一要求修改为「首页、电影搜索、登录/注册下拉、个人信息下拉」 -->
+			<nav class="navbar navbar-custom navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -414,10 +416,13 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
+			</nav>
+		</header>
 		
+		<!-- 主要内容区域 - 使用语义化 main 标签 -->
+		<main>
 		<!-- contain begin：保留原搜索页面所有功能逻辑 -->
-		<div class="container">
+		<section class="container">
 			<div class="row">
 				<div class="col-md-12 search-container">
 					<form class="form-horizontal" action="search" method="post">
@@ -473,16 +478,17 @@
 				</div>
 			  </div>
 			</div>
-		</div>
+		</section>
 		<!-- contain end -->
+		</main>
 		
-		<!-- foot begin：保留原页脚 -->
-		<div class="footer text-center">
+		<!-- foot begin：保留原页脚 - 使用语义化 footer 标签 -->
+		<footer class="footer text-center">
 			<div class="container">
 				<p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
 				<p>关于我们 · 服务条款 · 隐私政策 · 联系我们</p>
 			</div>
-		</div>
+		</footer>
 		<!-- foot end -->
 		
 	</body>
