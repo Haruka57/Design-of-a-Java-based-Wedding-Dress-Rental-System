@@ -181,8 +181,10 @@
     </style>
 </head>
 <body>
-    <!-- 导航栏 -->
-    <nav class="navbar navbar-custom navbar-fixed-top">
+    <!-- 页眉 - 使用语义化 header 标签 -->
+    <header>
+        <!-- 导航栏 - 使用语义化 nav 标签 -->
+        <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -199,8 +201,8 @@
                <ul class="nav navbar-nav navbar-right">
 						<!-- 1. 首页：普通链接 -->
 						<li><a href="index.jsp">首页</a></li>
-						<!-- 2. 电影搜索：当前页，添加active高亮 -->
-						<li class="active"><a href="search.jsp">电影搜索</a></li>
+						<!-- 2. 婚纱搜索：当前页，添加active高亮 -->
+						<li class="active"><a href="search.jsp">婚纱搜索</a></li>
 						<!-- 3. 登录/注册：下拉菜单 -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -224,8 +226,11 @@
 					</ul>
             </div>
         </div>
-    </nav>
+        </nav>
+    </header>
     
+    <!-- 主要内容区域 - 使用语义化 main 标签 -->
+    <main>
     <!-- 轮播图 -->
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
         <!-- 指示器 -->
@@ -266,8 +271,8 @@
         </a>
     </div>
     
-    <!-- 登录区域 -->
-    <div class="container login-container">
+    <!-- 登录区域 - 使用语义化 section 标签 -->
+    <section class="container login-container">
         <div class="login-card">
             <div class="login-header">
                 <h3>登录</h3>
@@ -322,10 +327,11 @@
                 </div>
             </form>
         </div>
-    </div>
+    </section>
+    </main>
     
-    <!-- 页脚 -->
-    <div class="footer text-center">
+    <!-- 页脚 - 使用语义化 footer 标签 -->
+    <footer class="footer text-center">
         <div class="container">
             <p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
             <div class="footer-links">
@@ -335,7 +341,7 @@
                 <a href="#">联系我们</a>
             </div>
         </div>
-    </div>
+    </footer>
 
     <!-- 引入jQuery和本地Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

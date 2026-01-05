@@ -80,7 +80,9 @@
 	</style>
 </head>
 <body>
-	<!-- 婚纱风格导航栏：所有内容居右 -->
+	<!-- 页眉 - 使用语义化 header 标签包裹导航栏 -->
+	<header>
+		<!-- 婚纱风格导航栏：所有内容居右 - 使用语义化 nav 标签 -->
 	<nav class="navbar navbar-custom" role="navigation">
 		<div class="container-fluid">
 			<!-- 移动端汉堡按钮（仅小屏幕显示） -->
@@ -144,5 +146,6 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+	</header>
 </body>
 </html>
