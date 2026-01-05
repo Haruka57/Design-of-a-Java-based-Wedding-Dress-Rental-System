@@ -371,7 +371,7 @@
 	<body>
 		<!-- 页眉 - 使用语义化 header 标签 -->
 		<header>
-			<!-- 导航栏：按统一要求修改为「首页、电影搜索、登录/注册下拉、个人信息下拉」 -->
+			<!-- 导航栏：按统一要求修改为「首页、婚纱搜索、登录/注册下拉、个人信息下拉」 -->
 			<nav class="navbar navbar-custom navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -386,12 +386,12 @@
 						<span class="glyphicon glyphicon-heart text-danger"></span> 梦幻婚纱
 					</a>
 				</div>
-				<!-- 导航内容：含下拉菜单，当前页「电影搜索」高亮 -->
+				<!-- 导航内容：含下拉菜单，当前页「婚纱搜索」高亮 -->
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<!-- 1. 首页：普通链接 -->
 						<li><a href="index.jsp">首页</a></li>
-						<!-- 2. 电影搜索：当前页，添加active高亮 -->
+						<!-- 2. 婚纱搜索：当前页，添加active高亮 -->
 						<li class="active"><a href="search.jsp">婚纱搜索</a></li>
 						<!-- 3. 登录/注册：下拉菜单 -->
 						<li class="dropdown">

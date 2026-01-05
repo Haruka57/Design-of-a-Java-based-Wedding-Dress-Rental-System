@@ -201,8 +201,8 @@
                <ul class="nav navbar-nav navbar-right">
 						<!-- 1. 首页：普通链接 -->
 						<li><a href="index.jsp">首页</a></li>
-						<!-- 2. 电影搜索：当前页，添加active高亮 -->
-						<li class="active"><a href="search.jsp">电影搜索</a></li>
+						<!-- 2. 婚纱搜索：当前页，添加active高亮 -->
+						<li class="active"><a href="search.jsp">婚纱搜索</a></li>
 						<!-- 3. 登录/注册：下拉菜单 -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
