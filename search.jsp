@@ -417,9 +417,9 @@
 		</nav>
 		
 		<!-- contain begin：保留原搜索页面所有功能逻辑 -->
-		<div class="container">
+		<main class="container">
 			<div class="row">
-				<div class="col-md-12 search-container">
+				<section class="col-md-12 search-container" aria-label="搜索和筛选">
 					<form class="form-horizontal" action="search" method="post">
 					  <div class="form-group">
 					    <label for="inputName" class="col-sm-2 control-label">婚纱名称</label>
@@ -445,19 +445,19 @@
 						   <a href="search?area=4" style="margin-right: 20px;">杭州</a>
 						</p>
 					</div>
-				</div>
+				</section>
 			</div>
 			
-			<div class="row content-section">
+			<section class="row content-section" aria-labelledby="search-results">
 			  <div class="col-md-12">
-			  	<div class="section-header">
-			  		<h3>搜索结果 <small>婚纱列表</small></h3>
-			  	</div>
+			  	<header class="section-header">
+			  		<h3><span id="search-results">搜索结果</span> <small>婚纱列表</small></h3>
+			  	</header>
 			  	<!-- 使用equal-height类确保卡片等高排列 -->
 			  	<div class="row equal-height">
 			  	
 				  <c:forEach items="${list }" var="m">
-					  <div class="col-md-3 col-sm-6">
+					  <article class="col-md-3 col-sm-6">
 					    <div class="thumbnail">
 					      <a href="movieinfo?mid=${m.mid }" target="_blank" class="image-container">
 					     	 <img src="image/${m.image }" title="${m.name }" alt="${m.name }">
@@ -467,22 +467,22 @@
 					        <small>${m.type==1?"鱼尾": m.type==2?"高腰": m.type==3?"蓬蓬裙": "A字裙" }</small>
 					      </div>
 					    </div>
-					  </div>
+					  </article>
 				  </c:forEach>
 				  
 				</div>
 			  </div>
-			</div>
-		</div>
+			</section>
+		</main>
 		<!-- contain end -->
 		
 		<!-- foot begin：保留原页脚 -->
-		<div class="footer text-center">
+		<footer class="footer text-center">
 			<div class="container">
 				<p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
 				<p>关于我们 · 服务条款 · 隐私政策 · 联系我们</p>
 			</div>
-		</div>
+		</footer>
 		<!-- foot end -->
 		
 	</body>

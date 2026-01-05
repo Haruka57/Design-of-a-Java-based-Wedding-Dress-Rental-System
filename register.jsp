@@ -238,7 +238,7 @@
     </nav>
     
     <!-- 轮播图 -->
-    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+    <section id="carousel-example" class="carousel slide" data-ride="carousel" aria-label="婚纱展示">
         <!-- 指示器 -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -268,15 +268,15 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">下一张</span>
         </a>
-    </div>
+    </section>
     
     <!-- 注册区域 -->
-    <div class="container register-container">
+    <main class="container register-container">
         <div class="register-card">
-            <div class="register-header">
+            <header class="register-header">
                 <h3>注册</h3>
                 <small style="color: #a94442;">${info }</small>
-            </div>
+            </header>
             
             <form class="form-horizontal" action="register" method="post">
                 <div class="form-group">
@@ -354,10 +354,10 @@
                 </div>
             </form>
         </div>
-    </div>
+    </main>
     
     <!-- 页脚 -->
-    <div class="footer text-center">
+    <footer class="footer text-center">
         <div class="container">
             <p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
             <div class="footer-links">
@@ -367,7 +367,7 @@
 	                <a href="#">联系我们</a>
             </div>
         </div>
-    </div>
+    </footer>
 
     <!-- 引入jQuery和本地Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

@@ -209,7 +209,7 @@
 		</nav>
 
 		<!-- 轮播图 - 无文字描述 -->
-		<div id="weddingCarousel" class="carousel slide" data-ride="carousel">
+		<section id="weddingCarousel" class="carousel slide" data-ride="carousel" aria-label="婚纱轮播展示">
 			<!-- 指示器 -->
 			<ol class="carousel-indicators">
 				<li data-target="#weddingCarousel" data-slide-to="0" class="active"></li>
@@ -239,17 +239,17 @@
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				<span class="sr-only">下一张</span>
 			</a>
-		</div>
+		</section>
 		
 		<!-- 主要内容区域 -->
-		<div class="container">
+		<main class="container">
 			<div class="row">
 				<!-- 推荐婚纱区域 -->
-				<div class="col-md-9">
-					<h3>推荐婚纱 <small>每一件都独具匠心</small></h3>
+				<section class="col-md-9" aria-labelledby="recommended-dresses">
+					<h3><span id="recommended-dresses">推荐婚纱</span> <small>每一件都独具匠心</small></h3>
 					<div class="row">
 						<c:forEach items="${list}" var="m">
-							<div class="col-md-3">
+							<article class="col-md-3">
 								<div class="thumbnail">
 									<a href="movieinfo?mid=${m.mid}" target="_blank">
 										<img src="image/${m.image}" style="width: 100%; height: 250px;" title="${m.name}" alt="${m.name}">
@@ -258,14 +258,14 @@
 										<h4>${m.name} <small>&nbsp;${m.type==1?"鱼尾": m.type==2?"高腰": m.type==3?"泡泡袖": "A字裙"}</small></h4>
 									</div>
 								</div>
-							</div>
+							</article>
 						</c:forEach>
 					</div>
-				</div>
+				</section>
 				
 				<!-- 热门婚纱区域 -->
-				<div class="col-md-3">
-					<h3>热门婚纱 <small>畅销款式</small></h3>
+				<aside class="col-md-3" aria-labelledby="popular-dresses">
+					<h3><span id="popular-dresses">热门婚纱</span> <small>畅销款式</small></h3>
 					<ol>
 						<c:forEach items="${listhit}" var="m">
 							<li>
@@ -273,12 +273,12 @@
 							</li>
 						</c:forEach>
 					</ol>
-				</div>
+				</aside>
 			</div>
-		</div>
+		</main>
 		
 		<!-- 页脚 -->
-		<div class="footer-custom">
+		<footer class="footer-custom">
 			<div class="container text-center">
 				<p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
 				<div class="footer-links">
@@ -288,7 +288,7 @@
 					<a href="#">联系我们</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 		
 		<script type="text/javascript">
 			// 初始化轮播图

@@ -23,7 +23,7 @@
 		</div>
 		
 		<!-- contain begin -->
-		<div class="container" style="height: 100%;">
+		<main class="container" style="height: 100%;">
 	   		<h2 style="margin-top: 20px;">婚纱管理<small>婚纱列表</small></h2><hr>
 			<div class="row">
 			  <div class="col-md-12" style="margin-top: 30px;">
@@ -62,14 +62,14 @@
 			  	</table>
 			  </div>
 			</div>
-		</div>
+		</main>
 		<!-- contain end -->
 		
 		<!-- foot begin -->
-		<div style="background-color: #f8f8f8;text-align: center;padding-top: 20px;padding-bottom: 20px;">
+		<footer style="background-color: #f8f8f8;text-align: center;padding-top: 20px;padding-bottom: 20px;">
 			<p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
 			<p>关于我们 服务条款 隐私政策 联系我们</p>
-		</div>
+		</footer>
 		<!-- foot end -->
 		
 	</body>
