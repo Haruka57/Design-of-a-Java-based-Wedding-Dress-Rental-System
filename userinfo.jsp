@@ -162,12 +162,12 @@
 	
 		
 		<!-- 内容区域 -->
-		<div class="container">
+		<main class="container">
 			<div class="page-header">
 				<h2>个人信息详情 <small>${sessionScope.username}的个人资料</small></h2>
 			</div>
 			
-			<div class="row">
+			<section class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="info-card">
 						<div class="info-item">
@@ -196,11 +196,11 @@
 					
 					
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 		
 		<!-- 页脚 -->
-		<div class="footer">
+		<footer class="footer">
 			<div class="container">
 				<p>© 2025 梦幻婚纱租借平台 - 让每个新娘都闪耀动人</p>
 				<div class="footer-links">
@@ -210,6 +210,6 @@
 					<a href="#">联系我们</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 	</body>
 </html>
